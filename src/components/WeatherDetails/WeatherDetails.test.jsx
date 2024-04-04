@@ -1,6 +1,6 @@
 import React from 'react'
-import { render } from '@testing-library/react'
 import WeatherDetails from './WeatherDetails'
+import { render } from '@testing-library/react'
 
 // findBytext: Permite encontrar un componente por el texto que muestra
 test('WeatherDetails render',  async () => {
